@@ -86,4 +86,8 @@ The window uses the stock Tk `clam` theme with flat controls. All colours are se
 
 ## Licence
 
-No licence has been chosen for this project yet. The files in `reference/kw1281test` come from kw1281test and are covered by the MIT licence included in that folder.
+Copyright (C) 2026 libang18
+
+EDC15 Tool is free software: you can redistribute it and modify it under the terms of the GNU General Public License, version 3, as published by the Free Software Foundation. It comes with no warranty. The full text is in [LICENSE](LICENSE).
+
+The files in `reference/kw1281test` come from kw1281test and remain under the MIT licence included in that folder.
