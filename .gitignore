@@ -1,0 +1,12 @@
+# Vehicle data: backups and logs contain the VIN, immobilizer ID and login.
+dumps/
+logs/
+
+# Local settings and Python caches.
+timing.json
+__pycache__/
+*.pyc
+
+# Third-party RAM loader source: downloaded on demand, never redistributed (no licence upstream).
+reference/ECU_Flasher_UNO_EDC15.ino
+reference/*.download

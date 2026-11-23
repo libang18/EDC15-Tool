@@ -1,0 +1,2 @@
+# The loaders are verified by SHA-256; never let git rewrite them.
+*.bin binary
