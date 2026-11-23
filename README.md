@@ -2,6 +2,8 @@
 
 A Windows desktop application written in Python and Tkinter for the Tactrix OpenPort 2.0. It reads and writes the 512 KiB flash and the 24C04 EEPROM of VAG EDC15P/P+ and EDC15V units over K-line and J2534 04.04, either over OBD or in boot mode. The default profile is `EDC15P`.
 
+![EDC15 Tool main window](docs/screenshot.png)
+
 ## Driver
 
 The original Tactrix driver relies on the kernel driver `openport.sys`, which Windows 11 blocks when Memory Integrity is on. EDC15 Tool was developed and tested with **Op20WinUSB**, a user-mode J2534 driver for the OpenPort 2.0 that works on Windows 11, comes in 32-bit and 64-bit builds and supports K-line including the 5-baud init that ECU identification needs: [libang18/Op20WinUSB](https://github.com/libang18/Op20WinUSB).
